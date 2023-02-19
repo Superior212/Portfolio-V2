@@ -1,0 +1,186 @@
+#AboutMe {
+  margin: 25rem 0 15rem 0;
+  padding: 0 5rem;
+}
+#me {
+  color: var(--accent-color);
+}
+
+#AboutMe .aboutme__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+#AboutMe .aboutme__links i {
+  color: var(--primary-color);
+  margin-right: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#AboutMe .aboutme__links i:hover {
+  transform: scale(1.15);
+}
+
+#AboutMe .aboutme__links button a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+#AboutMe .aboutme__links button {
+  text-decoration: none;
+  padding: 0.6rem;
+  cursor: pointer;
+  color: var(--accent-color);
+  border: 0.2px solid var(--accent-color);
+  border-radius: 0.5rem;
+  outline: none;
+  background-color: transparent;
+  font-size: 1rem;
+  box-shadow: 3px 3px 0 1px var(--primary-color);
+  transition: 0.15s ease-in-out;
+  position: relative;
+  display: inline-block;
+  top: 0;
+  left: 0;
+}
+
+#AboutMe .aboutme__links button:hover {
+  box-shadow: 0 0 0 0 var(--secondary-color);
+  top: 3px;
+  left: 3px;
+}
+
+#AboutMe .aboutme_heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+#AboutMe .aboutme_heading h2 {
+  color: var(--primary-color);
+  font-size: 32px;
+}
+#AboutMe .aboutme_content {
+  display: flex;
+}
+
+#AboutMe .description {
+  flex: 0.5;
+  width: 100%;
+}
+
+#AboutMe .description p {
+  margin-bottom: 15px;
+  font-size: 20px;
+  width: 100%;
+}
+
+#AboutMe .description .skills {
+  text-align: start;
+}
+
+#AboutMe .description ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  margin-top: 1.5rem;
+}
+
+#AboutMe .description ul li {
+  font-family: "Space Mono", monospace;
+  color: var(--accent-color);
+  list-style: none;
+  font-size: 0.8rem;
+  margin-bottom: 0.9rem;
+}
+
+#AboutMe .image {
+  flex: 0.5;
+  width: 100%;
+}
+
+#AboutMe .image img {
+  width: 100%;
+  margin-left: 1rem;
+  border-radius: 0.1rem;
+  box-shadow: 30px 30px 0 1px var(--primary-color);
+  transition: 0.5s ease-in-out;
+  position: relative;
+  display: inline-block;
+  top: 0;
+  left: 0;
+}
+#AboutMe .image img:hover {
+  box-shadow: 15px 15px 0 1px var(--primary-color);
+  top: 15px;
+  left: 15px;
+}
+
+#AboutMe .aboutme_content .description p {
+  color: var(--secondary-color);
+}
+
+/* ===================== RESPONSIVENESS =====================*/
+
+@media (max-width: 970px) {
+  #AboutMe {
+    margin: 10rem 0;
+  }
+  #AboutMe {
+    padding: 0 2rem;
+  }
+  #AboutMe .aboutme_heading {
+    margin-bottom: 2.5rem;
+  }
+  #AboutMe .aboutme_content {
+    flex-direction: column;
+  }
+
+  #AboutMe .image img {
+    margin: 0;
+    margin-top: 2rem;
+    box-shadow: none;
+  }
+
+  #AboutMe .image img:hover {
+    box-shadow: 0 0 0 0 var(--primary-color);
+    top: 0;
+    left: 0;
+  }
+
+  #AboutMe .description ul {
+    grid-template-columns: repeat(4, minmax(140px, 100px));
+  }
+}
+
+@media (max-width: 620px) {
+  #AboutMe .description p {
+    font-size: 18px;
+  }
+  #AboutMe .description ul {
+    grid-template-columns: repeat(4, minmax(130px, 100px));
+  }
+
+  #AboutMe .description ul li {
+    font-size: 0.65rem;
+  }
+}
+
+@media (max-width: 555px) {
+  #AboutMe {
+    padding: 0 0.5rem;
+  }
+  #AboutMe .description ul {
+    grid-template-columns: repeat(4, minmax(110px, 100px));
+  }
+}
+@media (max-width: 490px) {
+  #AboutMe .description ul {
+    grid-template-columns: repeat(2, minmax(140px, 100px));
+  }
+}

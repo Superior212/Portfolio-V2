@@ -1,0 +1,180 @@
+#Introduction {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 9rem 0;
+  min-height: calc(100vh - 250px);
+}
+
+#Introduction .intro h1 {
+  font-family: "Space Mono", monospace;
+  color: var(--accent-color);
+  font-size: 16px;
+  margin-left: 0.3rem;
+}
+
+#Introduction .intro h2 {
+  color: var(--primary-color);
+  font-size: 75px;
+}
+
+#Introduction .intro h3 {
+  width: 100%;
+  margin-top: 10px;
+  color: var(--secondary-color);
+  font-size: 50px;
+}
+
+#Introduction .intro_description p {
+  margin-top: 20px;
+  color: var(--secondary-color);
+  font-size: 20px;
+  width: 55%;
+}
+
+#Introduction .personal_links i {
+  margin-right: 2rem;
+  margin-top: 2rem;
+  color: var(--primary-color);
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+#Introduction .personal_links i:hover {
+  transform: scale(1.15);
+}
+
+#Introduction .intro_action a {
+  text-decoration: none;
+  padding: 1rem;
+  margin-top: 50px;
+  margin-right: 2rem;
+  cursor: pointer;
+  color: var(--accent-color);
+  border: 0.2px solid var(--accent-color);
+  border-radius: 0.5rem;
+  outline: none;
+  background-color: transparent;
+  font-size: 1rem;
+  box-shadow: 3px 3px 0 1px var(--primary-color);
+  transition: 0.15s ease-in-out;
+  position: relative;
+  display: inline-block;
+  top: 0;
+  left: 0;
+}
+
+#Introduction .intro_action a:hover {
+  box-shadow: 0 0 0 0 var(--secondary-color);
+  top: 3px;
+  left: 3px;
+}
+
+@media (max-width: 960px) {
+  #Introduction .intro h2 {
+    font-size: 40px;
+  }
+
+  #Introduction .intro h3 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1186px) {
+  #Introduction {
+    padding: 3rem 0;
+  }
+  #Introduction .intro h3 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1121px) {
+  #Introduction .intro h3 {
+    font-size: 50px;
+  }
+
+  #Introduction .intro_description p {
+    font-size: 15px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 1047px) {
+  #Introduction .intro h3 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 743px) {
+  #Introduction .intro h2 {
+    font-size: 50px;
+  }
+  #Introduction .intro h3 {
+    font-size: 35px;
+  }
+
+  #Introduction .intro_description p {
+    font-size: 15px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 743px) {
+  #Introduction .intro h1 {
+    font-size: 12px;
+  }
+
+  #Introduction .intro h2 {
+    font-size: 35px;
+  }
+  #Introduction .intro h3 {
+    font-size: 30px;
+  }
+  #Introduction .personal_links i {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 620px) {
+  #Introduction .intro h3 {
+    margin-top: 15px;
+    font-size: 25px;
+  }
+
+  #Introduction .intro_description p {
+    margin-top: 15px;
+    font-size: 13px;
+    width: 90%;
+  }
+
+  #Introduction .intro_action a {
+    font-size: 0.8rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 434px) {
+  #Introduction .intro h3 {
+    font-size: 20px;
+  }
+
+  #Introduction .intro_description p {
+    font-size: 12px;
+    width: 90%;
+  }
+  #Introduction .personal_links i {
+    margin-top: 1.3rem;
+    font-size: 1.5rem;
+  }
+
+  #Introduction .intro_action,
+  .personal_links {
+    display: flex;
+    justify-content: space-around;
+  }
+  #Introduction .intro_action a {
+    margin-top: 1.3rem;
+  }
+}
