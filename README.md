@@ -1,3 +1,3 @@
-## [LIVE LINK](http://www.bryanyi.com)
+## [LIVE LINK](https://samsonaderonmuv2.netlify.app/)
 
-![demo](/public/images/bryan_portfolio.png)
+![demo](/public/images/samson_portfolio.png)
