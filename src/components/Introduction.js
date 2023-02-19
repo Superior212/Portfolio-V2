@@ -4,14 +4,6 @@ import { Link } from "react-scroll";
 import "../css/Introduction.css";
 
 const Introduction = () => {
-  const springReference = useSpring({
-    opacity: 1,
-    to: { opacity: 1, marginTop: 0 },
-    from: { opacity: 0, marginTop: 40 },
-    delay: 1000,
-    config: { mass: 1, tension: 350, friction: 10, duration: 800 },
-  });
-
   const springH1 = useSpring({
     opacity: 1,
     to: { opacity: 1, marginTop: 0 },
