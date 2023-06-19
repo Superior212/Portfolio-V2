@@ -38,13 +38,19 @@ const AboutMe = () => {
       <div className="aboutme_content">
         <div className="description">
           <p>
-            Hi there! I'm <span id="me">Samson</span>, a web developer from Nigeria who takes pleasure in designing web applications that are both enjoyable and functional for users.
+            Hi there! I'm <span id="me">Samson</span>, a web developer from
+            Nigeria who takes pleasure in designing web applications that are
+            both enjoyable and functional for users.
           </p>
 
           <p>
-          I aspire to build products that clients can be proud of and to construct code that is organized and easy to understand.
+            I aspire to build products that clients can be proud of and to
+            construct code that is organized and easy to understand.
           </p>
-          <p>The following are some of the technologies I have been recently working with:</p>
+          <p>
+            The following are some of the technologies I have been recently
+            working with:
+          </p>
 
           <ul className="skills">
             <li>Reactjs/Redux</li>
@@ -58,7 +64,7 @@ const AboutMe = () => {
           </ul>
         </div>
         <div className="image">
-          <img src="/images/samson_profile.jpg" alt="" />
+          <img src="/images/sam.jpg" alt="" />
         </div>
       </div>
     </section>

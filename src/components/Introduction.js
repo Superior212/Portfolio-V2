@@ -55,31 +55,36 @@ const Introduction = () => {
       <div className="intro">
         <animated.h1 style={springH1}>Hi, my name is</animated.h1>
         <animated.h2 style={springH2}>Samson Aderonmu.</animated.h2>
-        <animated.h3 style={springH3}>I'm a Frontend Web Developer.</animated.h3>
+        <animated.h3 style={springH3}>
+          I'm a Frontend Web Developer.
+        </animated.h3>
       </div>
       <animated.div style={springDesc} className="intro_description">
         <p>
-          I'm a web developer based in Nigeria, my strong enthusiasm lies in developing exceptional websites and applications. I have a passion for building and designing websites and applications that provide intuitive, pixel-perfect user interfaces.  
+          I'm a web developer based in Nigeria, my strong enthusiasm lies in
+          developing exceptional websites and applications. I have a passion for
+          building and designing websites and applications that provide
+          intuitive, pixel-perfect user interfaces.
         </p>
       </animated.div>
 
       <animated.div style={springLinks} className="personal_links">
         <a
-          href="https://www.linkedin.com/in/bryantaeyi/"
+          href="https://www.linkedin.com/in/samsonaderonmu/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <i className="fab fa-linkedin"></i>
         </a>
         <a
-          href="https://github.com/bryanyi"
+          href="https://github.com/superior212"
           target="_blank"
           rel="noopener noreferrer"
         >
           <i className="fab fa-github"></i>
         </a>
         <a
-          href="./BryanYi_Resume.pdf"
+          href="./Samson_Aderonmu.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
