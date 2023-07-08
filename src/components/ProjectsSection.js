@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Projects.css";
-import Pubbles from "./projects/Pubbles";
 import Geek from "./projects/Geek";
+import VendorFinder from "./projects/VendorFinder";
 
 const Projects = () => {
   return (
@@ -15,7 +15,7 @@ const Projects = () => {
       </div>
 
       <Geek />
-      <Pubbles />
+      <VendorFinder />
     </section>
   );
 };
