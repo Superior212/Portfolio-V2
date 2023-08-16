@@ -25,7 +25,7 @@ const AboutMe = () => {
 
           <button>
             <a
-              href="./Samson_Aderonmu.pdf"
+              href="./ADERONMU_SAMSON.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -54,6 +54,7 @@ const AboutMe = () => {
 
           <ul className="skills">
             <li>Reactjs/Redux</li>
+             <li>Angular</li>
             <li>Javascript(ES6+)</li>
             <li>Git/GitHub</li>
             <li>Bootstrap/TailwindCSS</li>
@@ -61,6 +62,7 @@ const AboutMe = () => {
             <li>Figma</li>
             <li>Technical Writing</li>
             <li>Community Managemnet</li>
+            <li>NodeJs</li>
           </ul>
         </div>
         <div className="image">

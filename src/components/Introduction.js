@@ -84,7 +84,7 @@ const Introduction = () => {
           <i className="fab fa-github"></i>
         </a>
         <a
-          href="./Samson_Aderonmu.pdf"
+          href="./ADERONMU_SAMSON.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >

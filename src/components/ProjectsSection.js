@@ -2,6 +2,7 @@ import React from "react";
 import "../css/Projects.css";
 import Geek from "./projects/Geek";
 import VendorFinder from "./projects/VendorFinder";
+import PukkaView from "./projects/PukkaView";
 
 const Projects = () => {
   return (
@@ -16,6 +17,7 @@ const Projects = () => {
 
       <Geek />
       <VendorFinder />
+      <PukkaView/>
     </section>
   );
 };

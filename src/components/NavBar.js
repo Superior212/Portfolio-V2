@@ -39,7 +39,7 @@ const NavBar = ({ hamburger }) => {
         </ul>
         <button id="resume">
           <a
-            href="./Samson_Aderonmu.pdf"
+            href="./ADERONMU_SAMSON.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
